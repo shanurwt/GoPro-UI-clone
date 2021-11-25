@@ -1,8 +1,8 @@
 # GoPro-UI-clone
-##Testing My CSS skills
+## Testing My CSS skills
 
 
-##Here are some screenshots:
+### Here are some screenshots:
 
 ![Navbar and Header](/g1.jpg)
 ![Content 2](/g2.jpg)
