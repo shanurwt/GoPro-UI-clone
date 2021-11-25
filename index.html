@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar starts from here -->
+        <div class="navbar">
+            <div class="icon">
+                <div>
+                    <svg width="72" height="24" viewBox="0 0 73 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M26.5461 8.60052C28.3539 8.60052 29.2114 8.29299 29.2114 7.66708V4.55872C29.2114 3.93307 28.3539 3.62554 26.5461 3.62554H22.6633C20.8558 3.62554 19.9986 3.93307 19.9986 4.55872V7.66708C19.9986 8.29299 20.8558 8.60052 22.6633 8.60052H26.5461ZM26.5461 10.0723H22.6633C19.4305 10.0723 17.8148 9.24426 17.8148 7.55079V4.67553C17.8148 2.9818 19.4305 2.15225 22.6633 2.15225H26.5461C29.779 2.15225 31.3952 2.9818 31.3952 4.67553V7.55079C31.3952 9.24426 29.779 10.0723 26.5461 10.0723Z"
+                            fill="#111111"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M68.1323 8.60056H64.2498C62.4425 8.60056 61.585 8.29303 61.585 7.66712V4.55876C61.585 3.93336 62.4425 3.62584 64.2498 3.62584H68.1323C69.9401 3.62584 70.7976 3.93336 70.7976 4.55876V7.66712C70.7976 8.29303 69.9401 8.60056 68.1323 8.60056ZM68.1323 10.0723C71.3652 10.0723 72.9813 9.2443 72.9813 7.55108V4.67557C72.9813 2.98209 71.3652 2.1528 68.1323 2.1528H64.2498C61.0172 2.1528 59.4012 2.98209 59.4012 4.67557V7.55108C59.4012 9.2443 61.0172 10.0723 64.2498 10.0723H68.1323Z"
+                            fill="#111111"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.577 7.51421V5.52587C15.577 5.09507 15.3093 4.89893 14.7698 4.89893H10.0363C9.60875 4.89893 9.25965 5.26176 9.25965 5.70418C9.25965 6.1479 9.60875 6.51022 10.0363 6.51022H13.2741V7.57933C13.2741 7.90004 12.8536 8.21015 12.1484 8.39854C11.5884 8.54791 11.1212 8.56239 10.6253 8.56239H5.41803C3.34274 8.56239 2.30301 8.22204 2.30301 7.53902V2.48909C2.30301 1.80814 3.54401 1.49208 6.02158 1.49208H7.48575C8.0455 1.49208 8.32655 1.24192 8.32655 0.743419C8.32655 0.247498 8.0455 0.000183105 7.48575 0.000183105H5.40812C4.15434 0.000183105 3.00016 0.136633 1.97086 0.487318C0.799733 0.886071 0.00012207 1.58744 0.00012207 2.49323V7.54909C0.00012207 8.49028 0.645651 9.17434 1.93175 9.60178C2.86746 9.91525 4.01851 10.0724 5.39013 10.0724H10.6216C11.8983 10.0724 12.9793 9.89819 13.8662 9.55061C15.0076 9.10637 15.577 8.42775 15.577 7.51421Z"
+                            fill="#111111"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M47.143 3.92554C47.143 4.73803 46.12 4.97346 44.1169 4.97346H35.9764V1.49193H44.1169C46.12 1.49193 47.143 1.72761 47.143 2.53985V3.92554ZM47.4418 0.423592C46.5267 0.152502 45.4176 3.05176e-05 44.1169 3.05176e-05H34.331C33.9684 3.05176e-05 33.674 0.291278 33.674 0.651008V9.4122C33.674 9.85308 33.9506 10.0722 34.4827 10.0722H35.1674C35.6998 10.0722 35.9764 9.85308 35.9764 9.4122V6.46561H44.1169C45.5024 6.46561 46.5676 6.31495 47.5482 5.99373C48.8067 5.53554 49.4459 4.80703 49.4459 3.80899V2.23491C49.4459 1.43818 48.7853 0.829323 47.4418 0.423592Z"
+                            fill="#111111"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M57.0665 2.15274C55.0584 2.15274 54.2085 2.11656 53.0191 2.60008C51.9004 3.05517 51.4238 3.855 51.4238 4.591V9.44374C51.4238 9.86343 51.6874 10.0722 52.1945 10.0722H52.8463C53.3531 10.0722 53.6164 9.86343 53.6164 9.44374V4.591C53.6164 3.91315 54.464 3.62578 56.1435 3.62578H57.0821C57.6304 3.62578 57.8906 3.37743 57.8906 2.889C57.8906 2.4029 57.615 2.15274 57.0665 2.15274Z"
+                            fill="#111111"></path>
+                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="72"
+                            height="24">
+                            <path d="M0 22.8292H72.9815V0H0V22.8292Z" fill="white"></path>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 22.8292H15.8355V12.5533H0V22.8292Z"
+                                fill="#111111"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.0486 22.8292H34.8841V12.5533H19.0486V22.8292Z" fill="#111111"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M38.0969 22.8292H53.9324V12.5533H38.0969V22.8292Z" fill="#111111"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M57.1454 22.8292H72.9807V12.5533H57.1454V22.8292Z" fill="#111111"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <ul class="navul">
+                <li><a href="" class="nav-camera">Cameras</a></li>
+                <li><a href="" class="nav-apps">Apps</a></li>
+                <li><a href="" class="nav-acc">Accessories</a></li>
+                <li><a href="" class="nav-lifestyle">Lifestyle Gear</a></li>
+                <li><a href="" class="nav-gopro">GoPro subscription</a></li>
+            </ul>
+            <div class="sbox">
+                <a href="" class="magnify-link"><img src="./magnify.png" class="magnify" alt="" /></a>
+                <a href="" class="cart-link"><img src="./cart-outline.png" alt="" /></a>
+            </div>
+        </div>
+        <hr />
+
+        <!-- header starts from here -->
+        <div class="header">
+            <div class="main-head">
+                <img src="./main-header.webp" class="main-header" alt="" />
+                <img src="./hero10.webp" class="hero" alt="" />
+                <div class="headings">
+                    <h1 class="h-deal">Our Hottest Deal.</h1>
+                    <h1 class="h-deal">Ultimate Savings.</h1>
+                </div>
+                <div class="subheading">
+                    <h5 class="s-deal">HERO10 BLACK + Accessories Bundle</h5>
+                    <h5 class="s-deal">Includes 1-year GoPro Subscription¹</h5>
+                </div>
+
+                <div class="price">
+                    <p>$399.98</p>
+                    <span class="del-price">
+                        <del>$659.94</del>
+                    </span>
+                </div>
+                <div class="btn-container">
+                    <div class="shop">
+                        <a href="#" class="shop-link"> SHOP HERO10 </a>
+                    </div>
+                </div>
+
+                <span class="h-circle">
+                    <img src="./circle.png" alt="" class="img-circle" />
+                    <span class="save"> SAVE </span>
+                    <span class="value">
+                        <span class="dollar"> $ </span>
+                        <span class="price-value">
+                            260
+                            <!-- <img src="strike.png" alt=""> -->
+                        </span>
+                    </span>
+                    <span class="total"> IN TOTAL VALUE </span>
+                </span>
+            </div>
+        </div>
+        <!-- Content starts from here -->
+        <div class="content1">
+            <div class="acc1">
+                <img src="./backflip.png" alt="" class="acc1-img" />
+                <h1 class="acc1-text">Accessories <br> to help you <br> GoPro.</h1>
+            </div>
+            <div class="acc2">
+                <div class="acc2-first">
+                    <img src="./cam1.png" alt="" class="acc2-first-img">
+                    <h4 class="acc2-first-text">Mods</h4>
+                </div>
+                <div class="acc-bottom">
+                    <div class="acc2-second">
+                        <img src="./cam2.png" alt="" class="acc2-second-img">
+                        <h4 class="acc2-second-text">Mounts</h4>
+                    </div>
+                    <div class="acc2-third">
+                        <img src="./cam3.png" alt="" class="acc2-third-img">
+                        <h4 class="acc2-third-text">Protection</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content 2 starts from here -->
+        <div class="content2">
+            <div class="content2-container">
+                <div class="c2-text-head">
+                    <h1 class="sub-gopro">Subscribe to GoPro</h1>
+                    <div class="c2-subhead-1"><img src="" alt="">
+                        <span><img src="./cloud-upload.svg" alt="" class="cloud-upload"></span>
+                        <h4 class="cloud-upload-text">Automatically upload footage from your GoPro to the <br> cloud
+                        </h4>
+                    </div>
+                    <div class="c2-subhead-2">
+                        <span><img src="./cloud-lock.svg" alt="" class="cloud-lock"></span>
+                        <h4 class="cloud-lock-text">Unlimited cloud backup at 100% quality<sup>1</sup></h4>
+                    </div>
+                    <div class="c2-subhead-3">
+                        <span><img src="./quick-icon.svg" alt="" class="quick-icon"></span>
+                        <h4 class="quick-icon-text">Unlimited use of the Quik app</h4>
+                    </div>
+                    <div class="c2-subhead-4">
+                        <span><img src="./shop-tag.svg" alt="" class="shop-tag"></span>
+                        <h4 class="shop-tag-text">Up to 50% off at GoPro.com<sup>2</sup></h4>
+                    </div>
+                    <div class="c2-subhead-5">
+                        <span><img src="./camera.svg" alt="" class="camera-icon"></span>
+                        <h4 class="camera-icon-text">Guaranteed camera replacement<sup>3</sup></h4>
+                    </div>
+                    <!-- btn of subscribe now -->
+                    <div class="btn-container2">
+                        <div class="shop2">
+                            <a href="#" class="shop-link"> SHOP HERO10 </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="c2-img">
+                    <img src="./con2-cam-pic.png" alt="" class="c2-cam">
+                </div>
+
+            </div>
+        </div>
+        <!-- content 3 starts from here -->
+        <div class="content3">
+            <div class="content3-container">
+                <div class="c3left">
+                    <div class="c3bagpack">
+                        <img src="./bags.png" alt="" class="c3bag">
+                        <h4 class="bag-text">Backpacks <br> + Bags</h4>
+                    </div>
+                    <div class="c3lbottom">
+                        <div class="c3cloth">
+                            <img src="./cloth.png" alt="" class="c3cloth">
+                            <h4 class="cloth-text">Clothing</h4>
+                        </div>
+                        <div class="c3lifestyle">
+                            <img src="./lifestyle.png" alt="" class="c3lstyle">
+                            <h4 class="lstyle-text">Lifestyle</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c3right">
+                    <img src="./girlnbag.png" alt="" class="c3girlnbag">
+                    <h4 class="girl-text">Gear designed for <br> the GoPro <br> lifestyle.</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- content 4 starts from here -->
+        <div class="content4">
+            <p class="c4one">¹GoPro subscription available in select territories. Cancel anytime. See <a href="" class="c4link"> terms + conditions </a>for more details.</p>
+            <p class="c4two">²Applies only to purchases made on <b> GoPro.com.</b> Some accessories excluded. <a href="" class="c4link"> Learn more. </a> Limited to a maximum of 10 items per subscription anniversary year.</p>
+            <p class="c4three">³Exchange up to two cameras per year for the same model (GoPro Fusion and HERO5 or later). Fees apply. Available in these <a href="" class="c4link"> countries only. </a> </p>
+        </div>
+
+        <!-- footer starts from here -->
+        <div class="footer">
+            <div class="foot-content">
+                <div class="foot-about">
+                    <h1 class="f-about">ABOUT</h1>
+                    <ul class="f-about-list">
+                        <li class="f-about1 f-li">Our Story</li>
+                        <li class="f-about2 f-li">Careers</li>
+                        <li class="f-about3 f-li">Investors</li>
+                        <li class="f-about4 f-li">CA Privacy Notes</li>
+                        <li class="f-about5 f-li">Supplier Responsibility</li>
+                        <li class="f-about6 f-li">Connect With GoPro</li>
+                        <li class="f-about7 f-li">Distributors</li>
+                    </ul>
+                </div>
+                <div class="foot-shop">
+                    <h1 class="f-shop">SHOP</h1>
+                    <ul class="f-shop-list">
+                        <li class="f-shop1 f-li">Cameras</li>
+                        <li class="f-shop2 f-li">Apps</li>
+                        <li class="f-shop3 f-li">Accessories</li>
+                        <li class="f-shop4 f-li">Lifestyle Gear</li>
+                        <li class="f-shop5 f-li">GoPro Subscription</li>
+                    </ul>
+                </div>
+                <div class="foot-news">
+                    <h1 class="f-news">NEWS</h1>
+                    <ul class="f-news-list">
+                        <li class="f-news1 f-li">Latest News</li>
+                        <li class="f-news2 f-li">Events</li>
+                        <li class="f-news3 f-li">Pros</li>
+                        <li class="f-news4 f-li">In The Wild</li>
+                        <li class="f-news5 f-li">Heroes</li>
+                        <li class="f-news5 f-li">Tips & Tricks</li>
+                    </ul>
+                </div>
+                <div class="foot-program">
+                    <h1 class="f-program">PROGRAMS</h1>
+                    <ul class="f-program-list">
+                        <li class="f-program1 f-li">GoPro Awards</li>
+                        <li class="f-program2 f-li">GoPro for a Causes</li>
+                        <li class="f-program3 f-li">GoPro Labs</li>
+                        <li class="f-program4 f-li">VIP</li>
+                        <li class="f-program5 f-li">Student Discount</li>
+                        <li class="f-program6 f-li">Affiliate Program</li>
+                    </ul>
+                </div>
+                <div class="foot-help">
+                    <h1 class="f-help">HELP</h1>
+                    <ul class="f-help-list">
+                        <li class="f-help1 f-li">Order Status</li>
+                        <li class="f-help2 f-li">Contact Us</li>
+                        <li class="f-help3 f-li">Returns</li>
+                        <li class="f-help4 f-li">Shipping & Delivery</li>
+                        <li class="f-help5 f-li">Help Center</li>
+                        <li class="f-help6 f-li">Product Software Updates</li>
+                        <li class="f-help7 f-li">Terms Of Use</li>
+                        <li class="f-help8 f-li">Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="foot-social">
+                    <h1 class="f-social">SOCIAL</h1>
+                    <ul class="f-social-list">
+                        <li class="f-social1 f-li">Instagram</li>
+                        <li class="f-social2 f-li">Twitter</li>
+                        <li class="f-social3 f-li">Facebook</li>
+                        <li class="f-social4 f-li">PInterest</li>
+                        <li class="f-social5 f-li">YouTube</li>
+                        <li class="f-social6 f-li">TikTok</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-para">
+                <p class="f-para-one">© 2021 GoPro Inc. All rights reserved.</p>
+                <p class="f-para-two">GoPro, HERO and their respective logos are trademarks or registered trademarks of GoPro, Inc. in the United States and other countries. All other trademarks are the property of their respective owners.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

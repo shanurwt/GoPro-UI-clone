@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row;
+}
+
+.navul {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-basis: 1500px;
+  justify-items: center;
+}
+
+.nav-camera,
+.nav-apps,
+.nav-lifestyle,
+.nav-acc,
+.nav-gopro {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  margin-right: 70px;
+  text-decoration: none;
+  font-family: Sohne Briet, Arial, sans-serif;
+}
+
+.icon {
+  height: 60px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-img {
+  height: 30px;
+  width: 100px;
+  margin-left: 15px;
+}
+.sbox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-basis: 136px;
+}
+
+.magnify-link,
+.cart-link {
+  margin-right: 15px;
+}
+
+.header {
+  width: 100%;
+}
+.main-header {
+  background-image: url(./main-header.webp);
+  width: 100%;
+}
+.hero {
+  position: absolute;
+  margin-left: -1390px;
+  margin-top: 118px;
+  height: 20px;
+  width: 130px;
+}
+.h-deal {
+  color: #ff6767;
+  font-size: 56px;
+  line-height: 68px;
+  line-height: 32px;
+  letter-spacing: 0.95px;
+  font: 58px sans-serif;
+  font-weight: 550;
+}
+.headings {
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 120px;
+}
+.subheading {
+  position: absolute;
+  margin-top: -380px;
+}
+.s-deal {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.25px;
+  margin-left: 120px;
+}
+.price {
+  color: #ff6767;
+  font-size: 24px;
+  position: absolute;
+  display: flex;
+  margin-top: -300px;
+  margin-left: 120px;
+}
+.del-price {
+  margin-left: 20px;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.shop:hover {
+  transform: translate(-6px, -6px);
+}
+
+.shop {
+  background-color: black;
+  height: 30px;
+  width: 147px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.btn-container {
+  position: absolute;
+  height: 42px;
+  width: 150px;
+  border: 3px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 8px;
+  margin-top: 40px;
+  padding: 0px;
+  margin-top: -240px;
+  margin-left: 120px;
+}
+
+.h-circle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: -650px;
+  margin-left: 840px;
+  text-align: center;
+}
+
+.save {
+  font: 28px sans-serif;
+  font-weight: 600;
+}
+
+.value {
+  color: #ff6767;
+  font: 40px sans-serif;
+  font-weight: 900;
+  margin-top: -10px;
+}
+.price-value {
+  margin-left: -7px;
+}
+
+.total {
+  font: 10px sans-serif;
+  margin-top: 2px;
+}
+.img-circle {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -80px;
+  height: 200px;
+}
+
+.content1 {
+  display: flex;
+  width: 100%;
+}
+.acc1 {
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.acc1-img {
+  height: 540px;
+  width: 630px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+}
+
+.acc1-text {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  position: absolute;
+  margin-top: -490px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.acc2 {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.acc2-first-img {
+  height: 260px;
+  width: 630px;
+  cursor: pointer;
+}
+.acc2-first-text {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 70px;
+  font-size: 34px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.acc-bottom {
+  display: flex;
+  position: absolute;
+  margin-top: 16px;
+}
+.acc2-second-img {
+  height: 260px;
+  width: 305px;
+  cursor: pointer;
+}
+.acc2-third-img {
+  height: 260px;
+  width: 305px;
+  cursor: pointer;
+}
+
+.acc2-second-text {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 100px;
+  font-size: 30px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.acc2-third {
+  margin-left: 20px;
+}
+.acc2-third-text {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 80px;
+  font-size: 30px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.content2 {
+  padding-top: 100px;
+}
+.content2-container {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
+.c2-subhead-1,
+.c2-subhead-2,
+.c2-subhead-3,
+.c2-subhead-4,
+.c2-subhead-5 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cloud-upload,
+.quick-icon,
+.shop-tag,
+.camera-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 15px;
+}
+.cloud-lock {
+  height: 31.5px;
+  width: 32px;
+  margin-right: 15px;
+}
+
+.cloud-upload-text,
+.quick-icon-text,
+.shop-tag-text,
+.camera-icon-text,
+.cloud-lock-text {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.sub-gopro {
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+.c2-cam {
+  height: 470px;
+  width: 610px;
+  margin-left: 80px;
+}
+
+.shop2 {
+  background-color: black;
+  height: 30px;
+  width: 147px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.btn-container2 {
+  position: absolute;
+  height: 42px;
+  width: 150px;
+  border: 3px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 8px;
+  margin-top: 40px;
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.shop2:hover {
+  transform: translate(-6px, -6px);
+}
+
+.c3bag {
+  height: 260px;
+  width: 630px;
+  cursor: pointer;
+}
+.c3cloth {
+  height: 260px;
+  width: 305px;
+  cursor: pointer;
+}
+.c3lstyle {
+  height: 260px;
+  width: 305px;
+  cursor: pointer;
+}
+.c3girlnbag {
+  height: 540px;
+  width: 630px;
+  cursor: pointer;
+}
+
+.c3lbottom {
+  display: flex;
+  margin-top: 17px;
+}
+
+.content3-container {
+  height: 540px;
+  display: flex;
+  margin-top: 160px;
+  margin-left: 120px;
+}
+.c3right {
+  margin-left: 20px;
+}
+.bag-text {
+  margin-top: -170px;
+  margin-left: 60px;
+  position: absolute;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.cloth-text {
+  color: white;
+}
+.cloth-text,
+.lstyle-text {
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 110px;
+  font-size: 25px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.c3lifestyle {
+  margin-left: 20px;
+}
+.girl-text {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 35px;
+  color: #ffffff;
+  font-size: 44px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.content4 {
+  margin-top: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 11.3px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.c4link {
+  color: #0089cb;
+}
+
+.foot-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 368px;
+}
+
+.footer{
+    height: 532px;
+    background-color: #111;
+    color: #ffffff;
+}
+
+.f-about-list,
+.f-shop-list,
+.f-news-list,
+.f-program-list,
+.f-help-list,
+.f-social-list {
+  margin-top: 27px;
+  list-style-type: none;
+}
+
+.f-li{
+    margin-top: 22px;
+    font-family: sans-serif;
+}
+
+.f-about,
+.f-shop,
+.f-news,
+.f-program,
+.f-help,
+.f-social{
+margin-top: 40px;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 100;
+}
+
+.f-para{
+    font-family: sans-serif;
+font-size: 13px;
+margin-left: 30px;
+}
+
+.f-para-one, .f-para-two{
+    margin-top: 20px;
+}
